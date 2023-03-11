@@ -5,7 +5,6 @@ import AddUser from './components/AddStudents'
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import {useState} from 'react'
 import EditUser from './components/EditUser'
-import Example from './components/Example';
 import AddTeacher from './components/AddTeacher';
 import EditTeacher from './components/EditTeacher';
 
