@@ -97,7 +97,6 @@ let [teacher, setTeacher] = useState([
               element={<EditTeacher data={{ teacher, setTeacher }} />}
             />
             <Route path="*" element={<Navigate to="/" />} />
-            <Route path="/example" element={<Example />} />
           </Routes>
         </BrowserRouter>
       </div>
