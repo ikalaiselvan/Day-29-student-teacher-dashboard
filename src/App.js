@@ -2,7 +2,7 @@ import './App.css';
 import Dashboard from './components/Dashboard'
 import Sidebar from './components/Sidebar'
 import AddUser from './components/AddStudents'
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import {useState} from 'react'
 import EditUser from './components/EditUser'
 import AddTeacher from './components/AddTeacher';
@@ -67,9 +67,7 @@ let [teacher, setTeacher] = useState([
   return (
     <>
       <div id="wrapper">
-        <BrowserRouter>
           <Sidebar />
-
           <Routes>
             <Route
               path="/"
@@ -97,7 +95,6 @@ let [teacher, setTeacher] = useState([
             />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-        </BrowserRouter>
       </div>
     </>
   );
