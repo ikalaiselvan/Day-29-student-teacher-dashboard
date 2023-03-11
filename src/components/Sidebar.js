@@ -1,7 +1,5 @@
 import React from 'react'
-import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import {Link} from 'react-router-dom';
-import Dashboard from './Dashboard';
 
 function Sidebar() {
   return (
